@@ -89,7 +89,7 @@ public class Main {
     private static void returnBook() {
         System.out.print("Enter book ID to return: ");
         int id = scanner.nextInt();
-        scanner.nextLine();  // Consume newline
+        scanner.nextLine(); 
 
         for (Book book : books) {
             if (book.getId() == id) {
